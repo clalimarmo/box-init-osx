@@ -1,0 +1,5 @@
+#!/bin/sh
+wget http://cdn.command-tab.com/2008/memtest_422.zip -P ~/Downloads
+unzip ~/Downloads/memtest_422.zip -d ~/Downloads
+open ~/Downloads/memtest\ 422.pkg/
+rm ~/Downloads/memtest_422.zip
