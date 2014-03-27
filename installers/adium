@@ -1,0 +1,4 @@
+#!/bin/sh
+wget http://downloads.sourceforge.net/project/adium/Adium_1.5.9.dmg -P ~/Downloads
+open ~/Downloads/Adium_1.5.9.dmg
+sudo cp -r /Volumes/Adium\ 1.5.9/Adium.app /Applications/

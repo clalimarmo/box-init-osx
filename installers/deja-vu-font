@@ -1,0 +1,4 @@
+#!/bin/sh
+wget http://downloads.sourceforge.net/project/dejavu/dejavu/2.34/dejavu-fonts-ttf-2.34.zip -P ~/Downloads
+unzip ~/Downloads/dejavu-fonts-ttf-2.34.zip
+find ~/Downloads/dejavu-fonts-ttf-2.34/ -type f -name '*.ttf' -exec cp {} /Library/Fonts/ \;
