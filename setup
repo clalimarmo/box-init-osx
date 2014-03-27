@@ -1,0 +1,40 @@
+#!/bin/sh
+
+source sys-config
+
+# INSTALL USER APPLICATIONS (install xcode & agree to license first)
+
+# homebrew
+ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+source brew-installs
+
+# Google Chrome
+wget https://dl.google.com/chrome/mac/stable/GGRO/googlechrome.dmg -P ~/Downloads
+open ~/Downloads/googlechrome.dmg
+sudo cp -r /Volumes/Google\ Chrome/Google\ Chrome.app /Applications/
+
+# Dejavu Font
+wget http://downloads.sourceforge.net/project/dejavu/dejavu/2.34/dejavu-fonts-ttf-2.34.zip -P ~/Downloads
+unzip ~/Downloads/dejavu-fonts-ttf-2.34.zip
+find ~/Downloads/dejavu-fonts-ttf-2.34/ -type f -name '*.ttf' -exec cp {} /Library/Fonts/ \;
+
+# Iterm2
+wget http://iterm2.com/downloads/stable/iTerm2_v1_0_0.zip -P ~/Downloads
+unzip ~/Downloads/iTerm2_v1_0_0.zip
+sudo cp -r ~/Downloads/iTerm.app /Applications/
+rm -r ~/Downloads/iTerm.app
+plutil -convert binary1 ./app-preferences/com.googlecode.iterm2.plist.xml -o ~/Library/Preferences/com.googlecode.iterm2.plist
+
+# Dotfiles
+git clone https://github.com/clalimarmo/dotfiles.git ~/dotfiles
+ln -sf ~/dotfiles/.gitconfig ~/
+ln -sf ~/dotfiles/.gitignore_global ~/
+ln -sf ~/dotfiles/.vim ~/
+ln -sf ~/dotfiles/.vimrc ~/
+ln -sf ~/dotfiles/osx/.bash_profile ~/
+ln -sf ~/dotfiles/osx/.tmux.conf ~/
+
+# ssh key
+echo "please specify ssh key name > \c"
+read sshkeyname
+ssh-keygen -f ~/.ssh/$sshkeyname
