@@ -3,13 +3,13 @@ source sys-config
 
 # install homebrew (and more importantly, wget, used by a lot of the app installation
 # scripts)
-source installers/homebrew
-source installers/from-homebrew
+source install/homebrew
+source install/from-homebrew
 
-source installers/chrome
-source installers/deja-vu-font
-source installers/iterm2
-source installers/my-osx-dotfiles
-source installers/adium
+source install/chrome
+source install/deja-vu-font
+source install/iterm2
+source install/my-osx-dotfiles
+source install/adium
 
 source generate/new-ssh-key
