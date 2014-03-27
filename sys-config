@@ -1,4 +1,7 @@
 #!/bin/sh
+
+# Credit to https://github.com/mathiasbynens/dotfiles
+
 echo configuring system...
 # Reveal IP address, hostname, OS version, etc. when clicking the clock
 # in the login window
