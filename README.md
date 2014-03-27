@@ -1,8 +1,8 @@
 # Set us up the box
 
-    1) install xcode
-    2) open xcode and agree to license
-    3) run `./setup`
+1. install xcode
+2. open xcode and agree to license
+3. run `./setup`
 
 # Usage
 
