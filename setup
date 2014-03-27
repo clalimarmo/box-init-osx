@@ -1,15 +1,15 @@
 #!/bin/sh
-source sys-config
+./sys-config
 
 # install homebrew (and more importantly, wget, used by a lot of the app installation
 # scripts)
-source install/homebrew
-source install/from-homebrew
+./install/homebrew
+./install/from-homebrew
 
-source install/chrome
-source install/deja-vu-font
-source install/iterm2
-source install/my-osx-dotfiles
-source install/adium
+./install/chrome
+./install/deja-vu-font
+./install/iterm2
+./install/my-osx-dotfiles
+./install/adium
 
-source generate/new-ssh-key
+./generate/new-ssh-key
