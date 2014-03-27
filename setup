@@ -35,6 +35,6 @@ ln -sf ~/dotfiles/osx/.bash_profile ~/
 ln -sf ~/dotfiles/osx/.tmux.conf ~/
 
 # ssh key
-echo "please specify ssh key name > \c"
-read sshkeyname
-ssh-keygen -f ~/.ssh/$sshkeyname
+echo -n identify this computer \(ssh\):
+read computername
+ssh-keygen -f ~/.ssh/$computername -C `whoami`@$computername
