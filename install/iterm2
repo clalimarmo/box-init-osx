@@ -1,6 +1,6 @@
 #!/bin/sh
 wget http://iterm2.com/downloads/stable/iTerm2_v1_0_0.zip -P ~/Downloads
-unzip ~/Downloads/iTerm2_v1_0_0.zip
+unzip ~/Downloads/iTerm2_v1_0_0.zip -d ~/Downloads
 sudo cp -r ~/Downloads/iTerm.app /Applications/
 rm -r ~/Downloads/iTerm.app
 plutil -convert binary1 ./app-preferences/com.googlecode.iterm2.plist.xml -o ~/Library/Preferences/com.googlecode.iterm2.plist
