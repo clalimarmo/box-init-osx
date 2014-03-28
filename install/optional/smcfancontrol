@@ -1,0 +1,4 @@
+#!/bin/sh
+wget http://www.eidac.de/smcfancontrol/smcfancontrol_2_4.zip -P ~/Downloads
+unzip ~/Downloads/smcfancontrol_2_4.zip -d ~/Downloads
+sudo cp -r ~/Downloads/smcFanControl.all /Applications
