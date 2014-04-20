@@ -5,3 +5,6 @@ brew install node
 brew install rbenv
 brew install ruby-build
 brew install vim
+brew install exiftool
+brew install postgresql
+brew install imagemagick
