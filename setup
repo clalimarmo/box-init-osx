@@ -1,5 +1,5 @@
 #!/bin/sh
-./sys-config
+./sys-config/main
 
 # install homebrew (and more importantly, wget, used by a lot of the app installation
 # scripts)

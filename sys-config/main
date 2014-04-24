@@ -48,16 +48,4 @@ defaults write NSGlobalDomain KeyRepeat -int 2
 defaults write com.apple.dock wvous-tl-corner -int 10
 defaults write com.apple.dock wvous-tl-modifier -int 0
 
-
-
-# SSD Specific Settings:
-
-# Enable hibernation (hibernate when I run out of power)
-# sudo pmset -a hibernatemode 1
-# Disable hibernation (speeds up entering sleep mode)
-sudo pmset -a hibernatemode 0
-
-# Disable the sudden motion sensor as it’s not useful for SSDs
-sudo pmset -a sms 0
-
 echo done
