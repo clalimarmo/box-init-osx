@@ -15,6 +15,10 @@ into files that can be included here. For example, `update/iterm2-preferences`
 copies the current iterm2 config file and converts it from binary to a diffable
 thing. The `install/iterm2` script converts it back, and copies it into place.
 
+## Laptop Config
+
+run `./sys-config/laptop`
+
 # Maintaining
 
 Add an installation script for anything I don't want to have to install
