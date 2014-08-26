@@ -1,0 +1,4 @@
+#!/bin/sh
+wget http://videolan-nyc.defaultroute.com/vlc/2.1.5/macosx/vlc-2.1.5.dmg -P ~/Downloads
+open ~/Downloads/vlc-2.1.5.dmg
+sudo cp -r /Volumes/vlc-2.1.5/VLC.app /Applications/

@@ -11,6 +11,7 @@
 ./install/iterm2
 ./install/my-osx-dotfiles
 ./install/adium
+./install/vlc
 
 ./install/memtest
 
