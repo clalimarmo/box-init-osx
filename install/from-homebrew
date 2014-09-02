@@ -11,3 +11,5 @@ brew install postgresql
 brew install imagemagick
 brew install ufraw
 brew install redis
+brew install hg
+brew install go
