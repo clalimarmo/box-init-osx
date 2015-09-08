@@ -13,3 +13,8 @@ brew install ufraw
 brew install redis
 brew install hg
 brew install go
+
+brew install caskroom/cask/brew-cask
+
+brew cask install google-chrome
+brew cask install dockertoolbox

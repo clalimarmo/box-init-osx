@@ -6,7 +6,6 @@
 ./install/homebrew
 ./install/from-homebrew
 
-./install/chrome
 ./install/deja-vu-font
 ./install/iterm2
 ./install/my-osx-dotfiles
