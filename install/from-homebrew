@@ -1,20 +1,24 @@
 #!/bin/sh
-brew install wget
-brew install tmux
-brew install node
-brew install rbenv
-brew install ruby-build
-brew install vim
+
 brew install exiftool
 brew install exiv2
-brew install postgresql
-brew install imagemagick
-brew install ufraw
-brew install redis
-brew install hg
 brew install go
+brew install hg
+brew install imagemagick
+brew install node
+brew install postgresql
+brew install rbenv
+brew install redis
+brew install ruby-build
+brew install tmux
+brew install ufraw
+brew install vim
+brew install wget
 
 brew install caskroom/cask/brew-cask
 
-brew cask install google-chrome
 brew cask install dockertoolbox
+brew cask install firefox
+brew cask install google-chrome
+brew cask install iterm2
+brew cask install vlc
