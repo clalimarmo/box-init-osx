@@ -7,6 +7,7 @@ brew install hg
 brew install imagemagick
 brew install node
 brew install postgresql
+brew install qt
 brew install rbenv
 brew install redis
 brew install ruby-build
