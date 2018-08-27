@@ -16,8 +16,6 @@ brew install ufraw
 brew install vim
 brew install wget
 
-brew install caskroom/cask/brew-cask
-
 brew cask install firefox
 brew cask install google-chrome
 brew cask install iterm2
