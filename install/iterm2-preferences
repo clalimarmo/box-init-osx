@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+cp app-preferences/iterm2/com.googlecode.iterm2.plist ~/Library/Application\ Support/iTerm2/DynamicProfiles/

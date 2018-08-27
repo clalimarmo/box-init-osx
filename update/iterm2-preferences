@@ -1,5 +1,0 @@
-#!/bin/sh
-
-# update iTerm preferences
-cp ~/Library/Preferences/com.googlecode.iterm2.plist ./app-preferences/com.googlecode.iterm2.plist.xml
-plutil -convert xml1 ./app-preferences/com.googlecode.iterm2.plist.xml
