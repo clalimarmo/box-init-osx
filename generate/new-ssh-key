@@ -1,4 +1,2 @@
 #!/bin/sh
-echo -n identify this computer \(ssh\):
-read computername
-ssh-keygen -f ~/.ssh/$computername -C `whoami`@$computername
+ssh-keygen -C `whoami`@`hostname`

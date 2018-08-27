@@ -2,6 +2,10 @@
 
 # Credit to https://github.com/mathiasbynens/dotfiles
 
+echo Name the computer:
+read computername
+sudo scutil --set HostName $computername
+
 echo configuring system...
 # Reveal IP address, hostname, OS version, etc. when clicking the clock
 # in the login window
