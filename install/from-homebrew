@@ -5,7 +5,7 @@ brew install exiv2
 brew install go
 brew install hg
 brew install imagemagick
-brew install node
+brew install nvm
 brew install postgresql
 brew install qt
 brew install rbenv
