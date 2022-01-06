@@ -3,14 +3,13 @@
 
 # install homebrew (and more importantly, wget, used by a lot of the app installation
 # scripts)
-./install/homebrew
+#./install/homebrew
 ./install/from-homebrew
 
 ./install/deja-vu-font
 ./install/iterm2
 ./install/my-osx-dotfiles
-./install/vlc
 
-./install/memtest
+#./install/memtest
 
-./generate/new-ssh-key
+#./generate/new-ssh-key
